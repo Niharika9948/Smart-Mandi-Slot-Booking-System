@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Mandi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌾 Smart Mandi Booking</h1>
+
+<form id="bookingForm">
+    <input type="text" placeholder="Farmer ID" id="farmerId" required><br>
+    <input type="text" placeholder="Market ID" id="marketId" required><br>
+    <input type="date" id="date" required><br>
+    
+    <select id="slot">
+        <option>Morning</option>
+        <option>Afternoon</option>
+        <option>Evening</option>
+    </select><br>
+
+    <input type="text" placeholder="Vehicle Number" id="vehicleNo"><br>
+
+    <button type="submit">Book Slot</button>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
